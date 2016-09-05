@@ -1,28 +1,40 @@
 function setup() {
- createCanvas(1000, 400);  
- background(255, 0, 0)
+  createCanvas(2000,2000);
+  colorMode(HSB);
+  background('black');
+  
 }
 
+
 function draw() {
+
+ //this is a head;
+ fill(157, 96, 68);
+ ellipse(870, 300, 300);
+
+ //this is a mouth
+ fill(359, 92, 90);
+ arc(870, 400, 90, 90, 0.5, PI+QUARTER_PI, PIE);
  
+ //this are eyes
  stroke(255);
  fill(100, 100, 0);
- rect(50, 100, 100, 70);
- 
- //this is a trangle
- //noStroke(0);
- //fill(0, 0, 200, 98);
- // triangle(50, 50, 100, 100, 50, 200);
- 
- //this is a circle
- //ellipseMode(CORNER);
- fill(50, 0, 200, 98)
- ellipse(50, 100, 100, 100);
-  
- fill(200, 100, 100, 99);
- ellipse(50, 100, 50, 10);
- 
+ ellipse(800, 350, 100);
+
  stroke(255);
- line(50 , 1000 ,200 ,0)
- line(1000, 100, 0,400)
+ fill(100, 100, 0);
+ ellipse(950, 350, 100);
+ 
+ //this is a body
+ fill(140, 26, 82);
+ triangle(870, 800, 800, 450, 950, 450)
+ 
+ //this is leg and hand
+ fill(145, 100, 52);
+ line(800, 450, 750, 650);
+ line(950, 450, 1000, 650);
+ 
+ //this are foots
+ line(870, 800, 950, 950);
+ line(870, 800, 800, 950)
 }
