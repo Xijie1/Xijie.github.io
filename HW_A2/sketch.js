@@ -3,7 +3,7 @@ function setup() {
   
   
   
-  frameRate(50);
+  frameRate(1000);
   createCanvas(1000, 1000);
   colorMode(HSB);
   
