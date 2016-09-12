@@ -24,7 +24,7 @@ function setup() {
 function draw() {
   background('red'); 
   
-  rectMode(CENTER); 
+   
   rect(rectX, rectY, rectWidth, rectHeight); 
   
  
