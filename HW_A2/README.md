@@ -1,3 +1,3 @@
-# Blog for HW 1.2
+# Blog for HW 2.1
 
-This week I worked to homework A 1.2
+This week I worked to homework A 2.1
