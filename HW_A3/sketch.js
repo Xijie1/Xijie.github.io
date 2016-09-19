@@ -55,7 +55,7 @@ function draw() {
 
  
  for (var x = 0; x < width; x = x+50){
-  for(var y = 0; y <= 5;y++)
+  for(var y = 0; y <= height;y++)
  ellipse(x, y*100, 20, 20);
   
   }
