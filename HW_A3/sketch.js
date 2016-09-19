@@ -10,6 +10,8 @@
     b:0
   };
   
+  var speed = 10;
+  
 function setup() {
   createCanvas(1000,1000);
 
@@ -39,6 +41,16 @@ function draw() {
   rect(spot.x, spot.y, 500, 500);
   }
   var x=0, y=0;
+  
+   if (spot.x > width ){
+    speed = -3;
+    
+    
+
+  }
+
+  
+  spot.x =  spot.x + speed;
   
 
  
