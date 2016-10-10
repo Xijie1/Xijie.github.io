@@ -1,12 +1,12 @@
 // flying box
 
-function box ( boxD, boxY, scW, scH, color){
+function box ( boxD, boxY, w, h, color){
   this.x=random(boxD);
   this.y=random(boxY);
-  this.w= random(scW);
-  this.h=random(scH);
+  this.w= w;
+  this.h= h;
 
-  this.boxDiam = boxD;
+
   this.dirx = 1;
   this.diry = 1;
   this.maxDir = 10;
@@ -23,7 +23,8 @@ function box ( boxD, boxY, scW, scH, color){
 	stroke(0);
 	translate(this.x, this.y);
   fill(this.r, this.g, this.b);
-	rect(0, 0, this.w, this.h);
+	rect(this.x, this.y, 0, 0);
+
 
 
 
@@ -32,6 +33,7 @@ function box ( boxD, boxY, scW, scH, color){
 
 
 box.prototype.flying = function(){
+
   this.x += this.dirx * this.speed;
   this.y +=this.diry * this.speed;
 
@@ -39,10 +41,8 @@ box.prototype.flying = function(){
 };
 
 
-
-
  box.prototype.boxcolor = function(){
-   fill(this.r)
+   fill(this.r, this.g , this.b);
  }
 
 };
