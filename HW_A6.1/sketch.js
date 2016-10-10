@@ -13,13 +13,13 @@ function draw() {
 
 	for (var i = 0; i < box.length; i++){
 	  box[i].drawbox();
-	  box[i].move();
+	  box[i].flying();
 	}
 
 }
 
 function mousePressed(){
   for (var i = 0; < box.length; i++)(
-    box[i].flying;
+    box[i].flying();
   )
 };
