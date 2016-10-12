@@ -1,10 +1,11 @@
 // flying box
 
-function box ( boxD, boxY, w, h, color){
-  this.x=random(boxD);
-  this.y=random(boxY);
+function Box ( boxX, boxY, w, h){
+  this.x=boxX;
+  this.y=boxY;
   this.w= w;
   this.h= h;
+  this.boxDiam = box;
 
 
   this.dirx = 1;
@@ -17,13 +18,14 @@ function box ( boxD, boxY, w, h, color){
   this.b= random(256);
 };
 
- box.prototype.drawbox = function () {
+ Box.prototype.drawbox = function () {
 
 	push();
 	stroke(0);
-	translate(this.x, this.y);
+	translate(this.x, this.y, this.w, this.h);
   fill(this.r, this.g, this.b);
-	rect(this.x, this.y, 0, 0);
+	rect(0, 0, this.w, this.h);
+  pop();
 
 
 
@@ -31,18 +33,22 @@ function box ( boxD, boxY, w, h, color){
  };
 
 
+ Box.prototype.flying = function(){
 
-box.prototype.flying = function(){
+  this.x += this.dirx ;
+  this.y += this.diry ;
+if (this.x <= 0 || this.x >= width ){
+  this.dirx = -this.dirx;
 
-  this.x += this.dirx * this.speed;
-  this.y +=this.diry * this.speed;
+}
+if (this.y <= 0 || this.y >= height){
+  this.diry = - this.diry;
+}
 
 
 };
 
-
- box.prototype.boxcolor = function(){
-   fill(this.r, this.g , this.b);
- }
-
-};
+//Box.prototype.collision = function (){
+//   this.dirx = -this.dirx;
+//   this.diry = -this.diry;
+//}
