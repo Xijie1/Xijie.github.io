@@ -17,7 +17,7 @@ function draw() {
 	}
   //collisionCheck();
 
-//}
+};
 //
 // function mousePressed(){
 //   for (var i = 0; < boxArr.length; i++)(
