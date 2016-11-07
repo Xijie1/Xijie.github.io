@@ -1,0 +1,484 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "8zua-exgt",
+      "name" : "MT Top 20 Employers",
+      "attribution" : "Montana Department of Labor and Industry, Quarterly Census of Employment and Wages",
+      "attributionLink" : "http://www.bls.gov/cew/home.htm",
+      "averageRating" : 0,
+      "category" : "Business",
+      "createdAt" : 1415906640,
+      "description" : "List of top private employers in the state of Montana at the county and state level. Produced annually by the Montana Department of Labor and Industry using the Quarterly Census of Employment and Wages, based on average annual employment.",
+      "displayType" : "table",
+      "downloadCount" : 44,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1415914190,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 9373109,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1414425407,
+      "publicationGroup" : 1835413,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1414424664,
+      "rowsUpdatedBy" : "ntzj-cgqs",
+      "tableId" : 1835413,
+      "totalTimesRated" : 0,
+      "viewCount" : 1299,
+      "viewLastModified" : 1415913805,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 175454460,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22582218,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 20,
+          "average" : "2013",
+          "largest" : "2013",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2013",
+            "count" : 20
+          } ],
+          "smallest" : "2013",
+          "sum" : "40260"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 175454462,
+        "name" : "Category",
+        "dataTypeName" : "text",
+        "fieldName" : "category",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22582217,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 20,
+          "largest" : "top 20",
+          "null" : 0,
+          "top" : [ {
+            "item" : "top 20",
+            "count" : 20
+          } ],
+          "smallest" : "top 20"
+        },
+        "format" : { }
+      }, {
+        "id" : 175454466,
+        "name" : "FIPS STATE",
+        "dataTypeName" : "text",
+        "fieldName" : "fips_state",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22582222,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 20,
+          "largest" : "MT",
+          "null" : 0,
+          "top" : [ {
+            "item" : "MT",
+            "count" : 20
+          } ],
+          "smallest" : "MT"
+        },
+        "format" : { }
+      }, {
+        "id" : 175454468,
+        "name" : "Business",
+        "dataTypeName" : "text",
+        "fieldName" : "business",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22582224,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 20,
+          "largest" : "Wells Fargo",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Albertsons",
+            "count" : 20
+          }, {
+            "item" : "Aware Inc",
+            "count" : 19
+          }, {
+            "item" : "CHS Inc. (Cenex Harvest States)",
+            "count" : 18
+          }, {
+            "item" : "First Interstate Bank",
+            "count" : 17
+          }, {
+            "item" : "Benefis Healthcare",
+            "count" : 16
+          }, {
+            "item" : "Billings Clinic Health System",
+            "count" : 15
+          }, {
+            "item" : "Bozeman Deaconess Hospital",
+            "count" : 14
+          }, {
+            "item" : "Costco",
+            "count" : 13
+          }, {
+            "item" : "Glacier Bancorp",
+            "count" : 12
+          }, {
+            "item" : "Kalispell Regional Medical Center",
+            "count" : 11
+          }, {
+            "item" : "Missoula Community Medical Center",
+            "count" : 10
+          }, {
+            "item" : "Northwestern Energy",
+            "count" : 9
+          }, {
+            "item" : "St. Patrick Hospital",
+            "count" : 8
+          }, {
+            "item" : "St. Vincent Hospital",
+            "count" : 7
+          }, {
+            "item" : "Stillwater Mining Company",
+            "count" : 6
+          }, {
+            "item" : "Town Pump",
+            "count" : 5
+          }, {
+            "item" : "Wells Fargo",
+            "count" : 4
+          }, {
+            "item" : "St. Peters Hospital",
+            "count" : 3
+          }, {
+            "item" : "United Parcel Service",
+            "count" : 2
+          }, {
+            "item" : "Wal Mart",
+            "count" : 1
+          } ],
+          "smallest" : "Albertsons"
+        },
+        "format" : { }
+      }, {
+        "id" : 175454469,
+        "name" : "Size Class",
+        "dataTypeName" : "number",
+        "fieldName" : "size_class",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22582225,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 20,
+          "average" : "8.85",
+          "largest" : "9",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9",
+            "count" : 20
+          }, {
+            "item" : "8",
+            "count" : 19
+          } ],
+          "smallest" : "8",
+          "sum" : "177"
+        },
+        "format" : { }
+      }, {
+        "id" : 175454470,
+        "name" : "Number of Employees",
+        "dataTypeName" : "text",
+        "fieldName" : "number_of_employees",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22582226,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 20,
+          "largest" : "500 to 999",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1,000 and over",
+            "count" : 20
+          }, {
+            "item" : "500 to 999",
+            "count" : 19
+          } ],
+          "smallest" : "1,000 and over"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Other Information" : {
+            "Data Set Accuracy" : "",
+            "Update Frequency" : "Anually",
+            "Additional Disclaimer" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "business"
+          } ],
+          "where" : {
+            "children" : [ {
+              "value" : "state",
+              "operator" : "EQUALS",
+              "columnFieldName" : "area",
+              "metadata" : {
+                "freeform" : true,
+                "tableColumnId" : {
+                  "1835413" : 22582216
+                },
+                "operator" : "EQUALS"
+              }
+            }, {
+              "value" : "top 20",
+              "operator" : "EQUALS",
+              "columnFieldName" : "category",
+              "metadata" : {
+                "freeform" : true,
+                "tableColumnId" : {
+                  "1835413" : 22582217
+                },
+                "operator" : "EQUALS"
+              }
+            } ],
+            "operator" : "AND",
+            "metadata" : {
+              "unifiedVersion" : 2
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "ag4e-9xpg",
+        "displayName" : "sduthie@mt.gov",
+        "roleName" : "editor",
+        "screenName" : "sduthie@mt.gov",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 175454461,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "state"
+            } ],
+            "metadata" : {
+              "freeform" : true,
+              "tableColumnId" : {
+                "1835413" : 22582216
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 175454462,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "top 20"
+            } ],
+            "metadata" : {
+              "freeform" : true,
+              "tableColumnId" : {
+                "1835413" : 22582217
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 175454468,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 175454468,
+        "flags" : [ "asc" ]
+      } ],
+      "tableAuthor" : {
+        "id" : "ntzj-cgqs",
+        "displayName" : "Amy Watson",
+        "roleName" : "editor",
+        "screenName" : "Amy Watson",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "top employers", "county fliers", "largest employers", "2013 employers" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "EQUALS",
+          "children" : [ {
+            "columnId" : 175454461,
+            "type" : "column"
+          }, {
+            "type" : "literal",
+            "value" : "state"
+          } ],
+          "metadata" : {
+            "freeform" : true,
+            "tableColumnId" : {
+              "1835413" : 22582216
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "type" : "operator",
+          "value" : "EQUALS",
+          "children" : [ {
+            "columnId" : 175454462,
+            "type" : "column"
+          }, {
+            "type" : "literal",
+            "value" : "top 20"
+          } ],
+          "metadata" : {
+            "freeform" : true,
+            "tableColumnId" : {
+              "1835413" : 22582217
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      }
+    }
+  },
+  "response" : [ [ 86, "45E0978C-9180-4E51-A7BD-73F8A4FB1F97", 86, 1414399454, "897893", 1414399454, "897893", "{\n}", "2013", "top 20", "MT", "Albertsons", "9", "1,000 and over" ]
+, [ 115, "5024D55E-E955-4EA5-84BD-BAE3A72E9583", 115, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Aware Inc", "8", "500 to 999" ]
+, [ 135, "8F81A6E1-9DB0-4063-A8EB-D863FDC775FF", 135, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "CHS Inc. (Cenex Harvest States)", "9", "1,000 and over" ]
+, [ 279, "A757CD41-0857-4A2E-9E68-1388B3D498B5", 279, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "First Interstate Bank", "9", "1,000 and over" ]
+, [ 403, "81BABD05-EB76-488B-BC14-40C79CEC9033", 403, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Benefis Healthcare", "9", "1,000 and over" ]
+, [ 404, "4F887560-E491-4184-9DD9-A1312628126E", 404, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Billings Clinic Health System", "9", "1,000 and over" ]
+, [ 405, "3FCD9A25-BAFA-4361-9B12-23F4AA523E78", 405, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Bozeman Deaconess Hospital", "9", "1,000 and over" ]
+, [ 407, "51087900-BD19-4FB8-A628-E7CEAE74765F", 407, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Costco", "9", "1,000 and over" ]
+, [ 410, "422D7C06-F887-4347-9B92-6FDDF17BE3C1", 410, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Glacier Bancorp", "8", "500 to 999" ]
+, [ 411, "78E4818D-3D2C-4A22-A1C0-CFD5341FCC2B", 411, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Kalispell Regional Medical Center", "9", "1,000 and over" ]
+, [ 412, "1613602E-EE7A-457F-BAA0-F74D94E12D83", 412, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Missoula Community Medical Center", "9", "1,000 and over" ]
+, [ 413, "8669AED0-C7D7-4018-ABD3-77D0BD229A6E", 413, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Northwestern Energy", "9", "1,000 and over" ]
+, [ 414, "EB3E0B77-28C5-4EB0-822F-6D27D660A809", 414, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "St. Patrick Hospital", "9", "1,000 and over" ]
+, [ 416, "BD83BCB3-CAB0-4FD6-ADBD-3E3EE771EDAA", 416, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "St. Vincent Hospital", "9", "1,000 and over" ]
+, [ 417, "D927A96F-AA6A-4D94-9E57-675F0E85CC62", 417, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Stillwater Mining Company", "9", "1,000 and over" ]
+, [ 418, "95C672D8-7053-46C8-A184-5B803ECD5094", 418, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Town Pump", "9", "1,000 and over" ]
+, [ 420, "1838673E-69FE-4256-B09B-3B48F5896AB4", 420, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Wells Fargo", "9", "1,000 and over" ]
+, [ 541, "A1E5EC07-6844-4413-ACD8-9460CD5F96D9", 541, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "St. Peters Hospital", "9", "1,000 and over" ]
+, [ 587, "3A5E243F-3C00-440D-8EF3-0A58CB991C6A", 587, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "United Parcel Service", "8", "500 to 999" ]
+, [ 673, "AA5DAEFC-567B-4A87-975A-3ADC0A1D497F", 673, 1414399455, "897893", 1414399455, "897893", "{\n}", "2013", "top 20", "MT", "Wal Mart", "9", "1,000 and over" ]
+ ]
+}
